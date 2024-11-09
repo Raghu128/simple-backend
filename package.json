@@ -1,0 +1,20 @@
+{
+  "name": "firstbackendcode",
+  "version": "1.0.0",
+  "description": "Simple codes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "nothing"
+  ],
+  "author": "Raghu Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  }
+}
