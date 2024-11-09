@@ -16,6 +16,7 @@ const jokes = [{id:1, joke:"Joke1"}, {id:2, joke:"Joke2"}, {id:3, joke:"Joke3"},
 app.use(
     cors({
       origin: ["https://deploy-mern-lwhq.vercel.app"],
+      methods: ["GET", "POST"],
       credentials: true,
     })
   );
